@@ -23,7 +23,7 @@ pipeline {
       steps {
         sh """mvn sonar:sonar \
 			      -Dsonar.host.url=http:////54.162.58.76:9000 \
-			      -Dsonar.login=a68b3aba3ad450acb81b4d547dabc3acbfe6e040"""
+			      -Dsonar.login=5729e6994dbbae5dfe326a7214b85fabae15a0e8"""
       }
     }
     stage('Upload to Artifactory') {
